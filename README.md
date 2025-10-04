@@ -5,7 +5,7 @@ Your client.py acts as a central Concierge Desk that manages highly specialized 
 
 
 
-// **Phase 1: Setup and Initialization (Opening the Office)**
+**Phase 1: Setup and Initialization (Opening the Office)**
 `This phase establishes the foundational structure and loads all necessary resources.`
 
                     [ Load .env (Check Vault) ]
