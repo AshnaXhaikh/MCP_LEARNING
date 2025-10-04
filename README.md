@@ -7,15 +7,10 @@ Your client.py acts as a central Concierge Desk that manages highly specialized 
 `This phase establishes the foundational structure and loads all necessary resources.`
 
 | Load .env (Check Vault) |
-
-        ↓
-        
+        ↓        
 | Path Setup (Map Locations) |
-
-        ↓
-        
+        ↓        
 | MultiServerMCPClient Instantiation (HR & Logistics Dept) |
-
         ↓
 +-----------------------------------+-----------------------------------+
 |  Setup Math Expert (stdio Line)   | Setup Weather Expert (stdio Line) |
