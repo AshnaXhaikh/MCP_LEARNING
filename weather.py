@@ -6,7 +6,7 @@ import os # Import os to check for API key in environment
 
 # Use os.getenv() for the API key as a best practice, but keep the hardcoded key for the example
 # NOTE: In a real project, replace this with os.getenv("OPENWEATHERMAP_API_KEY")
-API_KEY = os.getenv("OPENWEATHERMAP_API_KEY", "b97f32ed9d2f529ea2f339af0517d70c")
+API_KEY = os.getenv("OPENWEATHERMAP_API_KEY", "your_weather_api_key")
 
 mcp = FastMCP("Weather")
 
@@ -63,4 +63,5 @@ def get_weather(city: str) -> str:
 
 if __name__ == "__main__":
     # Use the stable 'stdio' transport for automatic client-side management
+
     mcp.run(transport="stdio")
